@@ -1,0 +1,119 @@
+/* Resetting Default Styles */
+/* Resetting Default Styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0e0e0e;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0e0e0e;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.intro h1 {
+  font-size: 3em;
+  color: #e2c87d;
+  margin-bottom: 10px;
+}
+
+.intro p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.about {
+  margin-top: 50px;
+  text-align: left;
+}
+
+.about h2 {
+  color: #e2c87d;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.about p {
+  font-size: 1.1em;
+  line-height: 1.7;
+}
+
+.audio {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.connect {
+  margin-top: 50px;
+}
+
+.connect h2 {
+  color: #e2c87d;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.icons a {
+  color: #e2c87d;
+  font-size: 1.8em;
+  margin: 0 15px;
+  transition: color 0.3s;
+}
+
+.icons a:hover {
+  color: #ffffff;
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.icons img {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.icons img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px gold;
+}
+.footer-1{
+  text-align: center;
+}
+.icons img {
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  transition: transform 0.3s;
+}
+
+.icons img:hover {
+  transform: scale(1.1);
+}
